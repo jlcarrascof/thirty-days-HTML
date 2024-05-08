@@ -28,3 +28,12 @@ nav ul li {
     display: inline-block;
     margin-left: 10px;
 }
+
+main {
+    font-size: 2rem;
+    color: black;
+    background: rgba(0, 247, 255, 0.51);
+    padding-left: 10px;
+    height: 80vh;
+    width: 100%;
+}
