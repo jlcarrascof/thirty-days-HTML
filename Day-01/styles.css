@@ -1,5 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     font-size: 3rem;
     color: black;
     background: gainsboro;
+    padding-left: 10px;
+}
+
+nav {
+    font-size: 1.25rem;
+    color: black;
+    background-color: rgba(255, 0, 0, 0.608);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
 }
