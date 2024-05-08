@@ -38,3 +38,12 @@ main {
     height: 80vh;
     width: 100%;
 }
+
+footer {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 400;
+    background: gainsboro;
+    padding-left: 10px;
+    height: 8vh;
+}
