@@ -27,34 +27,6 @@ used to set the padding of the container element. */
 	padding: 0.2rem 0.2rem;
 }
 
-/* Wobble animation */
-
-/* Explanation - step by step: The wobble keyframe is used to animate the box
-element. The transform property is used to translate the box element. The
-translateX function is used to translate the box element horizontally. The
-translateY function is used to translate the box element vertically. The
-rotate function is used to rotate the box element. The animation property is
-used to define the animation. The animation-name property is used to set the
-name of the animation. The animation-duration property is used to set the
-duration of the animation. The animation-iteration-count property is used to
-set the number of times the animation should be played. The animation-timing-function
-property is used to set the timing function of the animation. The
-animation-direction property is used to set the direction of the animation. */
-
-@keyframes wobble {
-    0% {
-      transform: translateX(0) rotate(0deg);
-    }
-    25% {
-      transform: translateX(-3px) rotate(-1deg);
-    }
-    50% {
-      transform: translateX(3px) rotate(1deg);
-    }
-    75% {
-      transform: translateX(-3px) rotate(-1deg);
-    }
-    100% {
-      transform: translateX(0) rotate(0deg);
-    }
+.box:hover {
+    animation: wobble 0.5s ease-in-out infinite alternate;
 }
