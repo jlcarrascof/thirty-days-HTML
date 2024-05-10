@@ -14,7 +14,7 @@ used to set the padding of the container element. */
     width: 75px;
     background-color: lightblue;
     border-radius: 0.2rem;
-    animation: wobble 0.5s ease-in-out infinite alternate;
+    transition: transform 0.2s ease-in-out;
 }
 
 .container {
@@ -28,5 +28,5 @@ used to set the padding of the container element. */
 }
 
 .box:hover {
-    animation: wobble 0.5s ease-in-out infinite alternate;
+    transform: translateX(3px) rotate(1deg);
 }
