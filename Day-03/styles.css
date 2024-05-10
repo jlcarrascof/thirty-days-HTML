@@ -16,6 +16,21 @@
 	padding: 0.2rem 0.2rem;
 }
 
+@keyframes wobble {
+    0%, 100% {
+      transform: translateX(0) translateY(0) rotate(0deg);
+    }
+    25% {
+      transform: translateX(-3px) translateY(-3px) rotate(-1deg);
+    }
+    50% {
+      transform: translateX(3px) translateY(3px) rotate(1deg);
+    }
+    75% {
+      transform: translateX(-3px) translateY(-3px) rotate(-1deg);
+    }
+}
+
 .box:hover {
     transform: translateX(3px) rotate(1deg);
 }
