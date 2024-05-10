@@ -10,10 +10,11 @@ of columns in the grid layout of the container element. The padding property is
 used to set the padding of the container element. */
 
 .box {
-	height: 75px;
-	width: 75px;
-	background-color: lightblue;
-	border-radius: 0.2rem;
+    height: 75px;
+    width: 75px;
+    background-color: lightblue;
+    border-radius: 0.2rem;
+    animation: wobble 0.5s ease-in-out infinite alternate;
 }
 
 .container {
