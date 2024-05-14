@@ -8,3 +8,5 @@ In this repo I'll try to resolve an HTML - CSS challenge by 30 days.
 05-10-2024: Challenge Day 3 finished.
 
 05-13-2024: Challenge Day 6 finished. (Changed of name - to Day 7).
+
+05-14-2024: Challenge Day 5 finished. (I need to improve the last line).
